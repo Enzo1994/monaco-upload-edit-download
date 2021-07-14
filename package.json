@@ -1,0 +1,27 @@
+{
+  "name": "02-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --config ./build/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "monaco-editor": "^0.25.2"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.7",
+    "html-webpack-plugin": "^5.3.2",
+    "monaco-editor-webpack-plugin": "^4.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-middleware": "^5.0.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}
